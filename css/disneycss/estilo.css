@@ -1,0 +1,421 @@
+@font-face {
+  font-family: "Avenir Roman";
+  src: url("avenir-roman.ttf") format("truetype");
+}
+
+body {
+  padding-top: 70px;
+  background-image: url("imagenscss/original.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    padding-top: 70px;
+    background-image: url("imagenscss/original-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat center;
+    display: block;
+    align-items: center;
+  }
+}
+
+.botao-entrar {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 36px;
+  margin-top: -70px;
+}
+
+.entrar {
+  font-family: "avenir-roman", sans-serif;
+  font-size: 18px;
+  color: #ffff;
+  border: 1px solid silver;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 14px 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container-hero {
+  margin-top: 60px;
+}
+.hero {
+  background-repeat: no-repeat;
+  margin-left: 200px;
+}
+
+.titulo {
+  font-family: "Avenir Roman", sans-serif;
+  padding-bottom: 24px;
+  margin-left: -70px;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: bold;
+  color: #f9f9f9;
+}
+
+@media screen and (max-width: 740px) {
+  .titulo {
+    font-family: "Avenir Roman", sans-serif;
+    margin-top: 200px;
+    margin-left: -160px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #f9f9f9;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .titulo {
+    font-family: "Avenir Roman", sans-serif;
+    margin-top: 240px;
+    margin-left: -185px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #f9f9f9;
+  }
+}
+
+.logo {
+  max-width: 320px;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .logo {
+    max-width: 1000px;
+    max-height: 100px;
+    margin-left: -80px;
+    margin-top: -30px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .logo {
+    max-width: 1000px;
+    max-height: 100px;
+    margin-left: -120px;
+    margin-top: -30px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1760px) {
+  .botao-assine {
+    padding-top: 20px;
+    margin-left: -120px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .botao-assine {
+    padding-top: 20px;
+    margin-left: -155px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .botao-assine {
+    padding-top: 20px;
+    margin-left: -155px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .botao-assine {
+    margin-left: -200px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .botao-assine {
+    margin-left: -190px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1760px) {
+  .assine {
+    color: #f9f9f9;
+    font-family: "Avenir Roman", sans-serif;
+    background: #7b00d6;
+    width: 640px;
+    height: 68px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 5px;
+    border: 8px solid transparent;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .assine {
+    color: #f9f9f9;
+    font-family: "Avenir Roman", sans-serif;
+    background: #7b00d6;
+    width: 600px;
+    height: 68px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 5px;
+    border: 8px solid transparent;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .assine {
+    color: #f9f9f9;
+    font-family: "Avenir Roman", sans-serif;
+    background: #7b00d6;
+    width: 600px;
+    height: 68px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 5px;
+    border: 8px solid transparent;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .assine {
+    color: #f9f9f9;
+    font-family: "Avenir Roman", sans-serif;
+    background: #7b00d6;
+    width: 433px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 5px;
+    border: 8px solid transparent;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .assine {
+    color: #f9f9f9;
+    font-family: "Avenir Roman", sans-serif;
+    background: #7b00d6;
+    width: 324px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 5px;
+    border: 8px solid transparent;
+  }
+}
+
+@media screen and (max-width: 1760px) {
+  .small-text1 {
+    color: #f9f9f9;
+    margin-left: -100px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .small-text1 {
+    color: #f9f9f9;
+    margin-left: -150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .small-text1 {
+    color: #f9f9f9;
+    margin-left: -150px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .small-text1 {
+    color: #f9f9f9;
+    margin-left: -500px;
+    padding-left: 270px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .small-text1 {
+    color: #f9f9f9;
+    margin-left: -500px;
+    padding-left: 270px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .small-text2 {
+    color: #f9f9f9;
+    display: flex;
+    margin-left: 270px;
+    margin-top: -24px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .small-text2 {
+    color: #f9f9f9;
+    display: flex;
+    margin-left: 270px;
+    margin-top: -24px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .small-text3 {
+    color: #f9f9f9;
+    margin-left: 280px;
+    margin-top: -20px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .small-text3 {
+    color: #f9f9f9;
+    margin-left: 280px;
+    margin-top: -20px;
+    display: block;
+  }
+}
+
+.link {
+  font-family: "Avenir Roman", sans-serif;
+  cursor: pointer;
+  color: #f9f9f9;
+  text-align: inherit;
+  font-size: 16px;
+  line-height: 26px;
+  list-style: none;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  background-color: transparent;
+  border: none;
+  padding-top: 20px;
+  padding-left: 35px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 740px) {
+  .link {
+    font-family: "Avenir Roman", sans-serif;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 14px;
+    line-height: 26px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    background-color: transparent;
+    border: none;
+    padding-top: 0px;
+    padding-left: 35px;
+    text-decoration: underline;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .link {
+    font-family: "Avenir Roman", sans-serif;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 14px;
+    line-height: 26px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    background-color: transparent;
+    border: none;
+    padding-top: 0px;
+    padding-left: 35px;
+    text-decoration: underline;
+    display: flex;
+  }
+}
+
+.link1 {
+  font-family: "Avenir Roman", sans-serif;
+  cursor: pointer;
+  color: #f9f9f9;
+  text-align: inherit;
+  font-size: 16px;
+  line-height: 26px;
+  list-style: none;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  background-color: transparent;
+  border: none;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 740px) {
+  .link1 {
+    font-family: "Avenir Roman", sans-serif;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 14px;
+    line-height: 26px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    background-color: transparent;
+    border: none;
+    padding-top: 0px;
+    text-decoration: underline;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .link1 {
+    font-family: "Avenir Roman", sans-serif;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 14px;
+    line-height: 26px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    background-color: transparent;
+    border: none;
+    padding-top: 0px;
+    text-decoration: underline;
+    display: flex;
+  }
+}
