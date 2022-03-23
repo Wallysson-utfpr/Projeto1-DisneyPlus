@@ -30,15 +30,7 @@ body {
   margin-top: -70px;
 }
 
-@media screen and (max-width: 360px) {
-  .botao-entrar {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 5px;
-  margin-top: -70px;
 
-}
-}
 
 .entrar {
   font-family: "avenir-roman", sans-serif;
@@ -53,14 +45,24 @@ body {
 }
 
 @media screen and (max-width: 360px) {
+  .botao-entrar {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+  margin-top: -70px;
+
+}
+}
+
+@media screen and (max-width: 360px) {
 .entrar {
   font-family: "avenir-roman", sans-serif;
-  font-size: 18px;
+  font-size: 13px;
   color: #ffff;
   border: 1px solid silver;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 08px 04px;
+  padding: 10px 06px;
   cursor: pointer;
   text-decoration: none;
 }
