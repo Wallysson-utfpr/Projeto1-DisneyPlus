@@ -30,6 +30,16 @@ body {
   margin-top: -70px;
 }
 
+@media screen and (max-width: 360px) {
+  .botao-entrar {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+  margin-top: -70px;
+
+}
+}
+
 .entrar {
   font-family: "avenir-roman", sans-serif;
   font-size: 18px;
@@ -42,6 +52,20 @@ body {
   text-decoration: none;
 }
 
+@media screen and (max-width: 360px) {
+.entrar {
+  font-family: "avenir-roman", sans-serif;
+  font-size: 18px;
+  color: #ffff;
+  border: 1px solid silver;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 08px 04px;
+  cursor: pointer;
+  text-decoration: none;
+}
+}
+
 .container-hero {
   margin-top: 60px;
 }
@@ -49,6 +73,8 @@ body {
   background-repeat: no-repeat;
   margin-left: 200px;
 }
+
+
 
 .titulo {
   font-family: "Avenir Roman", sans-serif;
@@ -95,8 +121,10 @@ body {
     line-height: 32px;
     font-weight: bold;
     color: #f9f9f9;
+    text-align: center;
   }
 }
+
 
 .logo {
   max-width: 320px;
@@ -305,15 +333,17 @@ body {
     margin-left: 280px;
     margin-top: -20px;
     display: block;
+
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 370px) {
   .small-text3 {
     color: #f9f9f9;
     margin-left: 280px;
     margin-top: -20px;
     display: block;
+    
   }
 }
 
@@ -333,6 +363,7 @@ body {
   padding-top: 20px;
   padding-left: 35px;
   text-decoration: underline;
+  
 }
 
 @media screen and (max-width: 740px) {
@@ -371,9 +402,10 @@ body {
     background-color: transparent;
     border: none;
     padding-top: 0px;
-    padding-left: 35px;
     text-decoration: underline;
     display: flex;
+    
+
   }
 }
 
@@ -392,6 +424,7 @@ body {
   border: none;
   padding-top: 20px;
   text-decoration: underline;
+ 
 }
 
 @media screen and (max-width: 740px) {
@@ -419,7 +452,7 @@ body {
     font-family: "Avenir Roman", sans-serif;
     cursor: pointer;
     color: #f9f9f9;
-    text-align: inherit;
+    text-align: left;
     font-size: 14px;
     line-height: 26px;
     list-style: none;
@@ -431,5 +464,9 @@ body {
     padding-top: 0px;
     text-decoration: underline;
     display: flex;
+    margin-left: -190px;
+    text-indent: 13em;
+    
+    
   }
 }
