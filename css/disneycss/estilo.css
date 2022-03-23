@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Avenir Roman";
   src: url("avenir-roman.ttf") format("truetype");
@@ -24,68 +25,68 @@ body {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1700px) {
-.botao-entrar {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: -70px;
-  margin-right: 20px;
+  .botao-entrar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px;
+    margin-right: 20px;
+  }
 }
-}
-
 
 @media only screen and (min-width: 1024px) and (max-width: 1700px) {
-.entrar {
-  font-family: "avenir-roman", sans-serif;
-  font-size: 18px;
-  color: #ffff;
-  border: 1px solid silver;
-  border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 14px 16px;
-  cursor: pointer;
-  text-decoration: none;
-}
+  .entrar {
+    font-family: "avenir-roman", sans-serif;
+    font-size: 18px;
+    color: #ffff;
+    border: 1px solid silver;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 14px 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
 }
 
 @media only screen and (min-width: 100px) and (max-width: 1023px) {
   .botao-entrar {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: -70px;
-  margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px;
+    margin-right: 10px;
+  }
 }
-}
+
 @media only screen and (min-width: 100px) and (max-width: 1023px)  
 {
-.entrar {
-  font-family: "avenir-roman", sans-serif;
-  font-size: 13px;
-  color: #ffff;
-  border: 1px solid silver;
-  border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px 06px;
-  cursor: pointer;
-  text-decoration: none;
-}
+  .entrar {
+    font-family: "avenir-roman", sans-serif;
+    font-size: 13px;
+    color: #ffff;
+    border: 1px solid silver;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 06px;
+    cursor: pointer;
+    text-decoration: none;
+  }
 }
 
 .container-hero {
   margin-top: 100px;
 }
+
 .hero {
   background-repeat: no-repeat;
   margin-left: 200px;
 }
 
-
 @media only screen and (min-width: 1024px) and (max-width: 1700px) {
-.titulo {
-  font-family: "Avenir Roman", sans-serif;
-  padding-bottom: 24px;
-  margin-left: -70px;
-  font-size: 28px;
-  line-height: 38px;
+  .titulo {
+    font-family: "Avenir Roman", sans-serif;
+    padding-bottom: 24px;
+    margin-left: -70px;
+    font-size: 28px;
+    line-height: 38px;
   font-weight: bold;
   color: #f9f9f9;
 }
