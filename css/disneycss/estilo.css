@@ -123,7 +123,20 @@ body {
 @media screen and (max-width: 360px) {
   .titulo {
     font-family: "Avenir Roman", sans-serif;
-    margin-top: 240px;
+    margin-top: 270px;
+    margin-left: -185px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #f9f9f9;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .titulo {
+    font-family: "Avenir Roman", sans-serif;
+    margin-top: 188px;
     margin-left: -185px;
     font-size: 22px;
     line-height: 32px;
@@ -195,7 +208,14 @@ body {
 
 @media screen and (max-width: 360px) {
   .botao-assine {
-    margin-left: -190px;
+    margin-left: -188px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .botao-assine {
+    margin-left: -192px;
     display: flex;
   }
 }
@@ -265,7 +285,22 @@ body {
     color: #f9f9f9;
     font-family: "Avenir Roman", sans-serif;
     background: #6421ff;;
-    width: 324px;
+    width: 320px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 5px;
+    border: 8px solid transparent;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .assine {
+    color: #f9f9f9;
+    font-family: "Avenir Roman", sans-serif;
+    background: #6421ff;;
+    width: 290px;
     height: 50px;
     cursor: pointer;
     font-size: 18px;
