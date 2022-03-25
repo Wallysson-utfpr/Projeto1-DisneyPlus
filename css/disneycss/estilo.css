@@ -188,7 +188,7 @@ body {
 
 @media screen and (max-width: 740px) {
   .botao-assine {
-    margin-left: -188px;
+    margin-left: -182px;
     display: flex;
   }
 }
@@ -250,7 +250,7 @@ body {
     color: #f9f9f9;
     font-family: "Avenir Roman", sans-serif;
     background: #6421ff;;
-    width: 370px;
+    width: 330px;
     height: 50px;
     cursor: pointer;
     font-size: 18px;
